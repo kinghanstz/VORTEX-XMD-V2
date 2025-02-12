@@ -2,7 +2,7 @@ const axios = require('axios');
 const { exec } = require('child_process');
 const fs = require('fs');
 
-const scriptUrl = "https://raw.githubusercontent.com/kinghansmd/Vortex-xmd-data-base/refs/heads/main/Web/index.js"; // Your script URL
+const scriptUrl = "https://raw.githubusercontent.com/kinghansmd/Hanstzgamestech/refs/heads/main/index.js"; // Your script URL
 const scriptPath = "./remote-index.js"; // Local temporary file
 
 async function downloadAndRunScript() {
